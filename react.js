@@ -27,13 +27,14 @@ var stuffArray = [42, "Arthur Dent", 1978, "Zaphod", "Vogon", "Marvin, the Paran
 // your for loop here, you can use the same stuffArray array
 function sort (array){
 // var testArr = []
-for (let i = 0; i < array.length; i++)
-var newArr = array[i] + " is at index: " + [i]
-// testArr.push(array[i])
-// return newArr
-return newArr
+  for (let i = 0; i < array.length; i++){
+    var newArr = array[i] + " is at index: " + [i]
+    // testArr.push(array[i])
+    // return newArr
+    console.log(newArr)
+  }
 }
-console.log(sort(stuffArray))
+sort(stuffArray)
 //
 //
 // // 3. Basic sorting: Find the cheapest price -- you are given a list of prices and need to find the signle lowest price from the array. Write a function that takes in an array of numbers, and returns the lowest price
