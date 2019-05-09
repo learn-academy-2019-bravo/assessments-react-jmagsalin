@@ -21,7 +21,7 @@ Smart components are app level components that perform functions and manage data
 
 
  //Your Answer
-Yarn is a respository for files.  Yarn is adding a file to the your database.  Javascript will be updated.
+Yarn is a respository for files.  Yarn is adding a file to the your database.  Javascript will be updated.  It looks like two files were updated after adding a yarn package.  One was a lock file and the other was a JSON file.
 
  //Googled Answer
 With Yarn, engineers still have access to the npm registry, but can install packages more quickly and manage dependencies consistently across machines or in secure offline environments. NPM is updated.
@@ -30,14 +30,14 @@ With Yarn, engineers still have access to the npm registry, but can install pack
 
     import React, { Component } from 'react';
 
-    class Recipes {
+    class Recipes extends Component {
       constructor(props){
         super(props)
         this.state = {
-          recipes:
+          recipes: {
             name: 'Meatballs',
             name: 'Mac & Cheese'
-
+          }
         }
       }
 
